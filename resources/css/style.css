@@ -6,7 +6,8 @@ color: dimgray;
 }
 
 .main-heading h1,
-.main-heading a{  
+.main-heading a,
+.footer {
 color: white;
 }
 
@@ -14,18 +15,42 @@ color: white;
 font-size: 70px;
 }
 
-.main-heading a {
+.main-heading a,
+.footer a {
 font-size: 18px;
 }
 
-.main-heading {
-background-image: url("../images/the-flatiron-building.png");
+.main-heading,
+.ny-design-divider
+{
+   background-image: url("../images/the-flatiron-building.png");
 }
 
-h2 {
+.sub-heading h2 {
 font-size: 32px;
 }
 
-h3 {
-font-size: 24px;
+h3,
+.ny-design-divider p
+ {
+font-size: 23px;
+}
+
+.ny-design-divider p
+{
+ color: white;
+ font-weight: bold;
+}
+.footer p {
+font-size: 11px;
+font-weight: bold;
+}
+
+.footer a{
+color: white;
+}
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
 }
